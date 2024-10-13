@@ -1,7 +1,7 @@
 -- Step 1: Selecting all data from the source table
 
 Select *
-	From airbnb_open_data;
+From airbnb_open_data;
 
 -- Step 2: Creating a new table and converting blank cells to NULL values for better handling
 
