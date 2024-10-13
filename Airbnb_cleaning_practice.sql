@@ -97,8 +97,8 @@ WHERE last_review_conversion_status = 'failure';
 -- Step 7: Dropping the original last_review column and renaming last_review_clean
 
 ALTER TABLE airbnb_trial1 
-DROP COLUMN last_review,
-DROP COLUMN last_review_conversion_status;
+	DROP COLUMN last_review,
+	DROP COLUMN last_review_conversion_status;
 
 ALTER TABLE airbnb_trial1 
 CHANGE last_review_clean last_review DATE;
